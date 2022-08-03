@@ -26,11 +26,11 @@
     <div class="link">
       <h3 class="menu-title">Links</h3>
       <p class="sep">
-        <a href="https://twitter.com/GeorgeKawaii" target="_blank" onclick="gtag('event', 'click', {'event_category':'link', 'event_label':'twitter', 'value':'1'})">
+        <a href="https://twitter.com/GeorgeKawaii" target="_blank" onclick="gtag( 'event', 'click', { 'event_category':'link', 'event_label':'twitter', 'value':'1' } )">
           <img src="https://motebody.siteyuh.com/assets/twitter.svg" alt="">妄想ッター</a>
-        <a href="https://siteyuh.com" onclick="gtag('event', 'click', {'event_category':'link', 'event_label':'siteyuh', 'value':'1'})">
+        <a href="https://siteyuh.com" onclick="gtag( 'event', 'click', { 'event_category':'link', 'event_label':'siteyuh', 'value':'1' } )">
         プロフィールサイト</a>
-        <a href="/q/" target="_blank" onclick="gtag('event', 'click', {'event_category':'link', 'event_label':'questionnaire', 'value':'1'})">
+        <a href="/q/" target="_blank" onclick="gtag( 'event', 'click', { 'event_category':'link', 'event_label':'questionnaire', 'value':'1' } )">
         アンケート</a>
       </p>
     </div>

@@ -8,6 +8,9 @@
   the_title( '<h1 class="title">', '</h1>' );
 
   the_content();
+  
+  echo get_the_tag_list( '<p class="taglist">タグ: ', '/', '</p>' );
+  
   echo '<footer class="post-footer">'.PHP_EOL;
   echo '  <ul>'.PHP_EOL;
   echo '    <li><a href="https://twitter.com/share?url='.get_the_permalink().'&text=@georgekawaii" rel="nofollow" target="_blank">Twitterでコメントする</a></li>'.PHP_EOL;

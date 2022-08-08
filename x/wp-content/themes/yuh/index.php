@@ -13,7 +13,11 @@
       echo '>'.PHP_EOL;
       echo '<header class="date"><a href="'.get_the_permalink().'" target="_blank">'.get_the_date().' '.get_the_time().'</a></header>';
       the_content( '続きを読む', TRUE );
+      echo '<footer class="article-footer">';
+      echo get_the_tag_list( '<p class="taglist">タグ: ', '/', '</p>' );
+      echo '</footer>'; 
       echo '</article>'.PHP_EOL;
+
     endwhile;
     $big = 9999999999;
     $arg = array(

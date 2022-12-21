@@ -24,7 +24,7 @@ p, button, header {
 }
 
 a {
-  color: rgb(203, 206, 255);
+  color: #e14d43;
 }
 
 a[target="_blank"] {
@@ -117,11 +117,12 @@ header.date a[target="_blank"] {
   display: block;
   margin: auto;
   text-align: center;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 2px solid #e14d43;
+  color: #e14d43;
   background-color: transparent;
   padding: 4px;
   border-radius: 3px;
+  font-weight: 900;
 }
 
 figure, p {
